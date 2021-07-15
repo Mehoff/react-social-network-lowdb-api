@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Matvey",
+      "email": "offiza@gmail.com",
+      "password": "qwerty",
+      "imageUrl": "https://dev.by/storage/images/19/07/03/06/derived/9cbaa2efcd10699f1940ace9126c7811.jpg",
+      "age": 20,
+      "gender": "male",
+      "about": "Гитарист-приколист-программист :)"
+    },
+    {
+      "id": 2,
+      "name": "Max Dmitriev",
+      "email": "max@gmail.com",
+      "password": "qwerty",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/1200px-.NET_Logo.svg.png",
+      "age": 20,
+      "gender": "male",
+      "about": "Make JS not .NET"
+    },
+    {
+      "id": 3,
+      "name": "Illia",
+      "email": "mixov2000@gmail.com",
+      "password": "$2b$10$ZiDyJ0nzmlLICIWyMNKT0ez/qd5Wwh8Wlcn/6OHax1taViMI0iyJ2",
+      "imageUrl": null,
+      "age": "22",
+      "gender": "male",
+      "about": "Mimimim"
+    },
+    {
+      "id": 4,
+      "name": "Marta",
+      "email": "marta@gmail.com",
+      "password": "$2b$10$ZSazuStNFtyjxpRE7dDY3Oj2SUEb0HMhaS3WFSP3ExuJDOTraYkRu",
+      "imageUrl": null,
+      "age": "21",
+      "gender": "female",
+      "about": "Grill"
+    }
+  ],
+  "follows": [
+    {
+      "followerId": 1,
+      "followingId": 2
+    },
+    {
+      "followerId": 2,
+      "followingId": 1
+    }
+  ],
+  "posts_likes": [
+    {
+      "postId": 1,
+      "authorId": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "text": "Рыбки",
+      "image": "https://www.aquaworks.ru/images/iskusstvenno-okrashennye-rybki.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react-social-network-lowdb-api",
+  "version": "1.0.0",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mehoff/react-social-network-lowdb-api.git"
+  },
+  "author": "Mehoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mehoff/react-social-network-lowdb-api/issues"
+  },
+  "homepage": "https://github.com/Mehoff/react-social-network-lowdb-api#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^2.1.0",
+    "validator": "^13.6.0"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "type": "module"
+}
